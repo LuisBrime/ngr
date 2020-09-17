@@ -1,0 +1,284 @@
+[
+  {
+    "_id": "5f62b71138e762bbb3435a64",
+    "name": "MANMAN",
+    "isPlanet": true,
+    "density": 18743.2726,
+    "gravity": 9.964,
+    "discoveryDate": "1934-04-05T10:22:43 +06:00",
+    "isHabitable": true,
+    "itRains": false,
+    "moons": [
+      {
+        "moon": "Lorraine"
+      },
+      {
+        "moon": "Lynn"
+      },
+      {
+        "moon": "Mayra"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b711a262dd506acab0fa",
+    "name": "VIAA",
+    "isPlanet": true,
+    "density": 5895.8405,
+    "gravity": 174.4565,
+    "discoveryDate": "1929-03-08T07:26:48 +06:00",
+    "isHabitable": true,
+    "itRains": false,
+    "moons": [
+      {
+        "moon": "Roach"
+      },
+      {
+        "moon": "Robles"
+      },
+      {
+        "moon": "Rosetta"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b711d520e18b6e6ee987",
+    "name": "ANIELANIE",
+    "isPlanet": false,
+    "density": 15016.912,
+    "gravity": 84.1878,
+    "discoveryDate": "1937-02-12T02:17:37 +06:00",
+    "isHabitable": false,
+    "itRains": false,
+    "moons": [
+      {
+        "moon": "Juliana"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b71137ebf38a516b9d79",
+    "name": "RLESRLES",
+    "isPlanet": true,
+    "density": 14439.9799,
+    "gravity": 98.3363,
+    "discoveryDate": "1981-10-09T04:13:38 +06:00",
+    "isHabitable": true,
+    "itRains": false,
+    "moons": [
+      {
+        "moon": "Hughes"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b711db53f7a85026cf1f",
+    "name": "HERTYUGHERTY",
+    "isPlanet": false,
+    "density": 2230.1936,
+    "gravity": 171.2288,
+    "discoveryDate": "1985-02-12T01:32:43 +06:00",
+    "isHabitable": true,
+    "itRains": false,
+    "moons": [
+      {
+        "moon": "Vilma"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b711d1589b7164f6f53a",
+    "name": "RGORGO",
+    "isPlanet": true,
+    "density": 5948.894,
+    "gravity": 19.2376,
+    "discoveryDate": "1960-11-13T06:11:51 +06:00",
+    "isHabitable": false,
+    "itRains": false,
+    "moons": [
+      {
+        "moon": "Armstrong"
+      },
+      {
+        "moon": "Tina"
+      },
+      {
+        "moon": "Bernadette"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b71175f8d19d042365ba",
+    "name": "ENEENE",
+    "isPlanet": true,
+    "density": 6050.9039,
+    "gravity": 71.8995,
+    "discoveryDate": "1992-11-10T08:53:46 +06:00",
+    "isHabitable": true,
+    "itRains": false,
+    "moons": [
+      {
+        "moon": "Francis"
+      },
+      {
+        "moon": "Flores"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b711aad8aacf923a6060",
+    "name": "ALESALES",
+    "isPlanet": false,
+    "density": 4163.2212,
+    "gravity": 16.4808,
+    "discoveryDate": "1927-08-03T08:39:34 +06:00",
+    "isHabitable": false,
+    "itRains": false,
+    "moons": [
+      {
+        "moon": "Grace"
+      },
+      {
+        "moon": "Walter"
+      },
+      {
+        "moon": "Josefa"
+      },
+      {
+        "moon": "Elaine"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b711bee81273ece91d64",
+    "name": "UCECE",
+    "isPlanet": true,
+    "density": 11799.6588,
+    "gravity": 130.6821,
+    "discoveryDate": "2002-06-28T01:52:47 +05:00",
+    "isHabitable": true,
+    "itRains": false,
+    "moons": [
+      {
+        "moon": "Trudy"
+      },
+      {
+        "moon": "Leon"
+      },
+      {
+        "moon": "Amie"
+      },
+      {
+        "moon": "Luann"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b711a6f541939ec6c9cd",
+    "name": "ENEENE",
+    "isPlanet": true,
+    "density": 18644.4696,
+    "gravity": 181.6804,
+    "discoveryDate": "1910-08-25T05:07:05 +06:36",
+    "isHabitable": true,
+    "itRains": false,
+    "moons": [
+      {
+        "moon": "Sasha"
+      },
+      {
+        "moon": "Liza"
+      },
+      {
+        "moon": "Clarice"
+      },
+      {
+        "moon": "Guzman"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b711941d4e29c1ed6e1a",
+    "name": "NIENNIE",
+    "isPlanet": false,
+    "density": 17230.0812,
+    "gravity": 136.0231,
+    "discoveryDate": "1910-09-23T09:13:17 +06:36",
+    "isHabitable": false,
+    "itRains": true,
+    "moons": [
+      {
+        "moon": "Mollie"
+      },
+      {
+        "moon": "Porter"
+      },
+      {
+        "moon": "Helena"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b71122eb7b9dd8a679a7",
+    "name": "CHERHER",
+    "isPlanet": false,
+    "density": 10082.9089,
+    "gravity": 47.4628,
+    "discoveryDate": "1991-04-02T01:22:36 +06:00",
+    "isHabitable": true,
+    "itRains": true,
+    "moons": [
+      {
+        "moon": "Ball"
+      },
+      {
+        "moon": "Orr"
+      },
+      {
+        "moon": "Rebecca"
+      },
+      {
+        "moon": "Lamb"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b71168c707e811fdd66c",
+    "name": "NETTEINETTE",
+    "isPlanet": false,
+    "density": 8936.5847,
+    "gravity": 120.1895,
+    "discoveryDate": "2017-01-09T10:29:35 +06:00",
+    "isHabitable": false,
+    "itRains": false,
+    "moons": [
+      {
+        "moon": "Mindy"
+      }
+    ]
+  },
+  {
+    "_id": "5f62b711953bb80b81ae85a0",
+    "name": "WISS",
+    "isPlanet": true,
+    "density": 17752.7786,
+    "gravity": 131.9872,
+    "discoveryDate": "1979-05-22T01:38:10 +06:00",
+    "isHabitable": false,
+    "itRains": true,
+    "moons": [
+      {
+        "moon": "Adeline"
+      },
+      {
+        "moon": "Hudson"
+      },
+      {
+        "moon": "Wilcox"
+      },
+      {
+        "moon": "Elisa"
+      }
+    ]
+  }
+]
