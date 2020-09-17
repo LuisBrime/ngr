@@ -1,1 +1,2 @@
 fastapi==0.61.1
+mangum==0.9.0
