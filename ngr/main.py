@@ -8,7 +8,14 @@ from ngr.api.v1 import bodies
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-app = FastAPI()
+app = FastAPI(title='NGR', openapi_prefix='/prod')
+
+
+@app.get('/')
+def health_check():
+    return dict(message='Hello there!')
+
+
 app.include_router(bodies.router)
 
 

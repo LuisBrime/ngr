@@ -15,7 +15,7 @@ Resources:
               Ref: NGRGateway
           Type: Api
       FunctionName: ngr
-      CodeUri: s3://ngr-fastapi-bucket/9e1f4379706fb038b046d5f0dee1cd14
+      CodeUri: s3://ngr-fastapi-bucket/ab11281c9ec12b254ed44296b760074b
       Handler: ngr.main.handler
       Runtime: python3.8
       Timeout: 300
