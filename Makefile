@@ -23,7 +23,7 @@ install-dev: install
 	
 .PHONY: test
 test: clean install-dev lint
-		pytest
+		pytest --cov-report=xml --cov=./ngr tests/
 
 .PHONY: format
 format:

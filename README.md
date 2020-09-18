@@ -10,7 +10,7 @@
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 
 FastAPI project example made for deployment with AWS Lambda.
-\
+
 ## Run locally 💻 
 1. Install dev dependencies with Makefile
 
@@ -28,7 +28,7 @@ This will run the API locally and if you change anything in the code reload it.
 ```bash
 uvicorn ngr.main:app --reload
 ```
-\
+
 ## Structure 📁 
 ```
 .
@@ -49,7 +49,7 @@ uvicorn ngr.main:app --reload
   - **`db/`**: Contains handler for the fake DB. All data is contained on `data.json` generated with [JSON-Generator](https://www.json-generator.com/).
 - **`tests/`**: Contains all the tests for the source code, it mimics the structure of `ngr`.
 
-\
+
 ## Commands 🛠 
 This project uses a Makefile to easily run commands for installation, format, lint, etc.
 - **`make venv`**: Generates a Python `venv` so you can install dependencies without making Python go crazy. Note that after running you need to run `source venv/bin/activate` to activate it.
@@ -60,6 +60,6 @@ This project uses a Makefile to easily run commands for installation, format, li
 - **`make lint`**: Lints project using [flake8](https://flake8.pycqa.org/en/latest/) and checks format.
 - **`make clean`**: Cleans all cached files and folders.
 
-\
+
 ## Deploy to Lambda 🚀 
 Follow my tutorial on Medium.
