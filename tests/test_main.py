@@ -4,7 +4,12 @@ from ngr.main import handler
 
 
 def test_handler(caplog):
-    event = dict(path='/bodies/', httpMethod='GET', requestContext={}, multiValueQueryStringParameters=None)
+    event = dict(
+        path='/bodies/',
+        httpMethod='GET',
+        requestContext={},
+        multiValueQueryStringParameters=None,
+    )
     response = handler(event, None)
 
     assert '## EVENT' in caplog.text
