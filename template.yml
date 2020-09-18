@@ -1,0 +1,31 @@
+Transform: AWS::Serverless-2016-10-31
+
+Description: >
+  Template for NGR using FastAPI.
+
+Resources:
+  NGR:
+    Type: AWS::Serverless::Function
+    Properties:
+      Events:
+        ApiEvent:
+          Properties:
+            Method: ANY
+            Path: /{proxy+}
+            RestApiId:
+              Ref: NGRGateway
+          Type: Api
+      FunctionName: ngr
+      CodeUri: ./
+      Handler: ngr.main.handler
+      Runtime: python3.8
+      Timeout: 300
+      MemorySize: 128
+      Description: NGR FastAPI w/Lambda example
+      Role: !Sub arn:aws:iam::${AWS::AccountId}:role/ngrlambdarole
+
+  NGRGateway:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      OpenApiVersion: '3.0.0'

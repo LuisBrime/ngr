@@ -3,3 +3,4 @@ flake8==3.8.*
 isort==5.0.*
 pytest==5.4.*
 requests
+boto3
